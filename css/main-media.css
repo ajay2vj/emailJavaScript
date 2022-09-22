@@ -1,0 +1,292 @@
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+    .left-blk {
+        position: relative;
+        border-left: 640px solid transparent;
+        border-right: 640px solid transparent;
+        border-top: 100px solid #3f229e;
+        background: #fff;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    .hd-mail {
+        font-size: 14px;
+        margin: 10px 0 0 8px;
+    }
+    .hd-call {
+        font-size: 14px;
+    }
+    .nav-header {
+        width: 220px;
+    }
+    .top-menu-bar ul.navbar-nav.top-menu-list li>a.nav-link {
+        padding: 6px 11px;
+    }
+    .left-blk {
+        position: relative;
+        border-left: 512px solid transparent;
+        border-right: 512px solid transparent;
+        border-top: 100px solid #3f229e;
+        background: #fff;
+    }
+    .fee-banner h1 {
+        line-height: 40px;
+        font-size: 30px !important;
+    }
+    .fee-banner {
+        background: #3f229e;
+        /* background: rgba(63,34,158,0.7) url(../img/banner.jpg) center center / cover no-repeat; */
+        position: relative;
+        height: 560px;
+    }
+    .fee-banner::before {
+        width: 29%;
+        top: 17%;
+    }
+    .app-img img {
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        width: 100%;
+    }
+    .fd-blk {
+        height: 118px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hd-mail {
+        font-size: 14px;
+        margin: 10px 0 0 8px;
+    }
+    .hd-call {
+        font-size: 14px;
+    }
+    .nav-header {
+        width: 220px;
+    }
+    .section__title .sub-title {
+        font-size: 24px;
+        color: #475059;
+    }
+    .fea-title {
+        font-size: 24px;
+    }
+    .fee-ab-img {
+        width: 100%;
+    }
+    .faq-img img {
+        width: 100%;
+    }
+    .fea-img-blk img {
+        width: 100%;
+    }
+    .left-blk {
+        position: relative;
+        border-left: 384px solid transparent;
+        border-right: 384px solid transparent;
+        border-top: 100px solid #3f229e;
+        background: #fff;
+    }
+    .fee-banner h1 {
+        line-height: 36px;
+        font-size: 26px !important;
+    }
+    .fee-banner {
+        height: 550px;
+    }
+    .fee-banner::before {
+        width: 36%;
+        height: 100%;
+        top: 19%;
+        right: 0%;
+        z-index: 3;
+    }
+    .fea-section {
+        padding: 30px 0;
+    }
+    .feature-list::before {
+        height: 600px;
+    }
+    .app-img img {
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        width: 100%;
+    }
+    .app-img {
+        padding: 40px 0;
+    }
+    .social li a {
+        display: inline-block;
+        width: 24px;
+        line-height: 24px;
+        border-radius: 100px;
+        height: 22px;
+        text-align: center;
+    }
+    .myTv-Container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .fee-ab-img img {
+        margin: 0 0 40px 0;
+    }
+    .site-tit {
+        font-size: 24px;
+    }
+    .fee-ab-desc {
+        margin: 0 0 55px 0;
+    }
+    .hd-mail {
+        font-size: 12px;
+        margin: 10px 0 0 8px;
+    }
+    .hd-call {
+        font-size: 12px;
+        padding: 6px !important;
+    }
+    .nav-header {
+        width: 192px;
+    }
+    .hr-prod-blk {
+        height: auto;
+        margin: 0 0 30px 0;
+    }
+    .bd-blk {
+        display: none;
+    }
+    .fee-banner {
+        height: auto;
+        padding: 0;
+    }
+    .fee-ab-img {
+        width: 100%;
+    }
+    .faq-img img {
+        width: 100%;
+    }
+    .fea-img-blk img {
+        width: 100%;
+    }
+    .fee-banner::before {
+        display: none;
+    }
+    .fee-banner h1 {
+        line-height: 20px;
+        font-size: 14px !important; 
+    }
+    .banner-txt-blk {
+        margin: 40px 0 0 0;
+    }
+    .ggi-banner-desc {
+        top: 50%;
+    }
+    .fee-banner::after {
+        left: 42%;
+    }
+    .top-menu-bar {
+        padding: 15px;
+    }
+    .top-menu-bar .fa-bars {
+        color: #fff;
+    }
+    .fixed-header .fa-bars {
+        color: #333;
+    } 
+    #navbarSupportedContent {
+        background: #fff;
+        border-radius: 3px;
+    }
+    .top-menu-bar ul.navbar-nav.top-menu-list li>a.nav-link {
+        color: #333;
+    }
+    .top-menu-bar ul.navbar-nav.top-menu-list li>a.nav-link:hover, .top-menu-bar ul.navbar-nav.top-menu-list li>a.nav-link:hover {
+        color: #fc0;
+    }
+    .section__title .sub-title {
+        font-size: 20px;
+    }
+    #myTab {
+        display: block;
+    }
+    #myTab li {
+        display: block;
+        margin: 0 0 12px 0;
+    }
+    .feature-list::before {
+        height: 730px;
+    }
+    .fea-section {
+        padding: 40px 0;
+    }
+    .app-section {
+        height: 800px;
+    }
+    .wrap-section-lg {
+        padding: 2.5rem 0;
+    }
+    #download-section .col-md-4 {
+        padding: 0;
+        margin: 20px 0 0 0;
+    }
+    .feenix-form {
+        position: inherit;
+        top: 0;
+        right: 0;
+    }
+    .fea-title {
+        font-size: 20px;
+    }
+    .map-section {
+        margin: 0 0 430px 0;
+    }
+    footer .row div[class^=col-] {
+        padding: 20px 15px;
+    }
+    .m-ban-img {
+        display: block;
+    }
+    .ban-img img {
+        width: 100%;
+    }
+    .ban-img {
+        margin: 100px 0 0 0;
+    }
+    .app-details {
+        margin: 60px 0 0 0;
+    }
+    .ind-section .hr-prod-blk {
+        height: auto;
+    }
+    footer {
+        height: 100%;
+        padding: 20px 0 10px 0;
+    }
+    #contact-section {
+        padding-top: 100px;
+    }
+    .projectFactsWrap .item {
+        flex: 0 0 50%;
+     }
+     #prod-section .hr-prod-blk-con {
+        height: auto;
+    }
+    #about, #about .text-left {
+        text-align: center !important;
+    }
+    .dmp-ser-blk {
+        margin: 0 0 30px 0;
+        text-align: center;
+    }
+    .ds-desc {
+        text-align: center;
+    }
+    .ds-desc h3 {
+        font-size: 24px;
+        color: #475059;
+        line-height: 34px;
+    }
+    .myTv-Container {
+        width: 100%;
+    }
+}

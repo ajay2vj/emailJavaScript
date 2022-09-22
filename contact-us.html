@@ -1,0 +1,70 @@
+<html>
+<head>
+  <title>Contach Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./css/bootstrap.css" rel="stylesheet">
+  <script src="./js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card col-md-6 offset-md-3" style="margin-top:50px;">
+      <div class="card-body">
+        <h2 class="text-center">Contact Us</h2>
+        <label for="thename">Code</label>
+        <input type="text" class="form-control" id="thecode" placeholder="Enter the code">
+        <label for="thename">Name</label>
+        <input type="text" class="form-control" id="thename" placeholder="Enter Name">
+        <label for="themail">Email</label>
+        <input type="email" class="form-control" id="themail" placeholder="Enter Email">
+        <label for="themail">Mobile Number</label>
+        <input type="number" class="form-control" id="thenumber" placeholder="Enter Mobile Number">
+        <label for="themsg">Message</label>
+        <textarea class="form-control" id="themsg" placeholder="Enter Message"></textarea>
+        <button class="btn btn-danger btn-sm" style="margin-top:10px;" onCLick="sendemail();">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script>
+    function sendemail() {
+      var userid = "HVl-QagINRHqIOX7i"
+      emailjs.init(userid);
+      var thecode = document.getElementById('thecode').value;
+      var thename = document.getElementById('thename').value;
+      var themail = document.getElementById('themail').value;
+      var themsg = document.getElementById('themsg').value;
+      var thenumber = document.getElementById('thenumber').value;
+      var validmail = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
+      if (thename == "") {
+        alert("Please Enter Name");
+      }
+      else if (themail == "" || themail.match(!validmail)) {
+        alert("Please Enter Valid Email");
+      }
+
+      else if (themsg == "") {
+        alert("Please Enter Message");
+      }
+      else {
+        var contactdetail = {
+          user_code: thecode,
+          user_name: thename,
+          user_email: themail,
+          mobile_number: thenumber,
+          message: themsg
+        };
+
+        emailjs.send('service_lbhqqnn', 'template_sztzuk3', contactdetail).then(function (res) {
+          alert("Email Sent Successfully");
+        },
+          reason => {
+            alert("Error Occur");
+          })
+      }
+    }
+  </script>
+</body>
+</html>
